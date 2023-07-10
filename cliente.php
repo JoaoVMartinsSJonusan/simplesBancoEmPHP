@@ -2,7 +2,7 @@
 
     require_once "conta.php";
 
-    class Cliente extends ContaBancaria{
+    class Cliente{
 
         private $nome;
         private $cpf;
