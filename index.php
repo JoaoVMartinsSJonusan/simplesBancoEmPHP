@@ -4,8 +4,8 @@
     require_once "conta.php";
 
     
-    $conta1 = new ContaBancaria(1, 2000, date("d/m/Y"), 222111);
-    $cliente1 = new Cliente("joao", 123456, "joao@gmail.com", $conta1);
+    $conta1 = new ContaBancaria(1, $_POST['deposito'], date("d/m/Y"), $_POST['senha']);
+    $cliente1 = new Cliente($_POST['nome'], $_POST['cpf'], $_POST['email'], $conta1);
 
     $conta1->addSaldo(198);
     $conta1->remSaldo(250.60);

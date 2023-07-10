@@ -44,7 +44,7 @@
         }
 
         public function __toString() {
-            return "Nome: " . $this->nome . ", Cpf: " . $this->cpf . ", Email: " . $this->email . "<br>" . $this->conta;
+            return "Nome: " . $this->nome . ", Cpf: " . $this->cpf . ", Email: " . $this->email . "<br>" . "<br>" . $this->conta . "<br>";
         }
 
     }

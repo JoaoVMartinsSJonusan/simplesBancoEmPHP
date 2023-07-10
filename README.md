@@ -13,4 +13,7 @@ receber, para a segurança do código.
 
 Adicionado Verificação para saque, caso a senha esteja correta e o Saldo na conta for maior que o valor desejado o saque é feito, caso contrario nao é liberado.
 
+Adicionado tela para digitar os dados em html no formulario, com o metodo POST.
+
+
 Ao final é exibido na tela os dados do cliente e da conta.
